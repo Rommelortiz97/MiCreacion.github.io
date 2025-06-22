@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera creacion web</title>
+    <style>
+        body {
+            background-color: #5a9171;
+        }
+    </style>
+    <style>
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .galeria img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+    </style>
+</head>
+<body>
+    <nav>
+      <ul>
+         <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <h1>
+        Mi primera creacion web. 
+    </h1>
+
+    <p style="color: black; font-family: Arial;"><strong><i><u>
+        Esta es una pagina web creada por mi, con el fin de aprender a crear paginas web. 
+        Espero que te guste. 
+
+        El desarrollo web es el proceso de crear y mantener sitios web y aplicaciones web. Implica diversas tareas como el diseño, la codificación, la gestión de contenidos y la administración del servidor. Se trata de un campo amplio que abarca tanto la parte visible para el usuario (front-end) como la lógica interna (back-end) del sitio web. 
+    Aquí te desglosamos más a fondo:
+    </u></i></strong></p>
+    <h2>
+    ¿Qué abarca el desarrollo web?</h2>
+    <p>
+        <strong>
+            <u>
+                <i>
+    Diseño: Crear la apariencia visual y la interfaz de usuario del sitio web. 
+    Codificación: Escribir el código que hace que el sitio web funcione utilizando lenguajes como HTML, CSS y JavaScript (front-end), y otros lenguajes como Python, PHP, Java, etc. (back-end). 
+    Gestión de contenidos: Organizar y actualizar la información que se muestra en el sitio web. 
+    Administración del servidor: Gestionar el servidor que aloja el sitio web, asegurando su correcto funcionamiento y disponibilidad. 
+    Desarrollo de aplicaciones web: Construir aplicaciones que se ejecutan en un navegador web, como herramientas de gestión, plataformas de comercio electrónico, etc. 
+                </i>
+            </u>
+        </strong>
+    </p>
+
+    <h2>Tipos de desarrollo web:</h2>
+    <p>
+        <strong>
+            <u>
+                <i>
+    Front-end: Se centra en la parte del sitio web que ve el usuario. Los desarrolladores front-end se encargan de la interfaz de usuario, la experiencia del usuario (UX) y la usabilidad. 
+    Back-end: Se centra en la lógica interna del sitio web, la gestión de datos, la conexión a bases de datos y la seguridad. 
+    Full-stack: Abarca tanto el desarrollo front-end como el back-end. 
+    En resumen: El desarrollo web es un proceso complejo que requiere habilidades técnicas, creativas y de resolución de problemas para construir sitios web funcionales, atractivos y eficientes. 
+                </i>
+            </u>
+        </strong>
+    </p>
+    <div class="galeria">
+    <img src="https://png.pngtree.com/png-clipart/20220124/original/pngtree-distance-education-home-office-internet-class-png-image_7198844.png" width="30%"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/2462/2462982.png" width="30%"/>
+    <img src="https://png.pngtree.com/png-clipart/20250102/original/pngtree-web-development-illustration-modern-png-image_4461019.png" width="30%"/>
+    </div>
+
+  <h2>Mira este video interesante:</h2>
+  <div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jkk9cxqqQhE" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+    </div>
+
+        
+    <p>
+        <strong>Lenguajes utilizados:</strong>
+    </p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <p>
+    <button>Boton</button>
+    </p>
+
+    <form>
+        <input type="text" placeholder="Nombre" required><br>
+        <input type="email" placeholder="Correo electrónico" required><br>  
+        <input type="submit" value="Enviar"><br>
+        <input type="radio"><br>
+        <input type="checkbox"><br><br>
+        <select>
+            <option value="opcion1">HTML</option>
+            <option value="opcion2">CSS</option>
+            <option value="opcion3">JavaScript</option>
+        </select><br><br>
+    </form>
+
+    <footer id="Contacto">
+    Mi sitio web.    
+    </footer>
+
+<script>
+    window.onload = function() {
+        alert("Sean tod@s bienvenidos a mi pagina web!!!");
+    };
+    
+</script>
+
+</body>
+</html>
